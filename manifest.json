@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Video text search Plugin",
+    "description": "This extension will redirect the blank google search page to google news page",
+    "version": "0.1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "https://*/*"
+            ]
+        }
+    ]
+}
